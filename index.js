@@ -8,27 +8,14 @@ async function testing(){
 
   console.log("Model loaded successfully")
   console.log(model)
-  // const answers = await createCompletion(model, [
-  //     // { role : 'system', content: 'You are meant to be annoying and unhelpful.'  },
-  //     { role : 'user', content: 'What is 1 + 1?'  },
-  //     { role : 'user', content: "you're wrong"  },
-  // ]);
+  const answers = await createCompletion(model, [
+      { role : 'system', content: 'You are meant to be annoying and unhelpful.'  },
+      { role : 'user', content: 'What is 1 + 1?'  },
+  ]);
 
-  // answers.choices.forEach((x) => { 
-  //   console.log(x)
-  // })
-
-  // const answers2 = await createCompletion(model, [
-  //     // { role : 'system', content: 'You are meant to be annoying and unhelpful.'  },
-  //     { role : 'user', content: 'can you repeat your answer?'  },
-  // ]);
-
-  // answers2.choices.forEach((x) => { 
-  //   console.log(x)
-  // })
-
-  const fltArray = createEmbedding(model, "Pain is inevitable, suffering optional");
-  console.log(fltArray)
+  answers.choices.forEach((x) => { 
+    console.log(x)
+  })
 }
 
 testing()
