@@ -1,7 +1,12 @@
 # Hello world
 gpt4all-helloworld-nodejs
 
-
+## Setup guide by cloning this repository
+```
+cd into this directory
+npm installcCX
+node index.js
+```
 
 ## Setup this from scratch - Ignore this if you cloned this repository
 ```
