@@ -9,6 +9,8 @@ node index.js
 ```
 
 ## Setup this from scratch - Ignore this if you cloned this repository
+1) Still need to download a model
+2) run the command below
 ```
 cd C:/Users/<username>/Desktop
 mkdir gpt4all-helloworld-nodejs
